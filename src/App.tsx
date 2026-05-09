@@ -4,7 +4,7 @@ function App() {
     <>
       <section id="center">
         <p>
-          This is the personal website of Adithya Reji.
+          Welcome to the personal website of Adithya Reji.
         </p>
       </section>
 
