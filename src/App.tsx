@@ -1,24 +1,13 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.module.scss'
+import Home from "./pages/Home";
 function App() {
   return (
-    <>
-      <section id="center">
-        <p>
-          Welcome to the personal website of Adithya Reji.
-        </p>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-          <div>
-            This is a work in progress, and I will be adding more content to this website in the following weeks!
-          </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
