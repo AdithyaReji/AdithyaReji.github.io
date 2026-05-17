@@ -1,12 +1,16 @@
 import styles from "./NavBar.module.scss";
 import { Link } from "react-router-dom";
+import Button from "../Button/Button";
 
 function NavBar() {
   return (
     <nav className={styles.navbar}>
-      <ul>
+      <Button>
         <Link to="/">Home</Link>
-      </ul>
+      </Button>
+      <Button>
+        <Link to="/about">About</Link>
+      </Button>
     </nav>
   );
 }

@@ -1,5 +1,5 @@
 import styles from './Home.module.scss'
-import NavBar from '../components/NavBar/NavBar';
+import NavBar from '../../components/NavBar/NavBar';
 function Home () {
     return (
         <>
