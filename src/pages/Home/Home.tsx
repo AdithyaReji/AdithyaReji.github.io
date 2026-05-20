@@ -5,7 +5,10 @@ function Home () {
         <>
         <section className={styles.center}>
             <h1>
-            Welcome to the personal website of Adithya Reji.
+            Welcome to the personal website of
+            </h1>
+            <h1>
+                Adithya Reji
             </h1>
         </section>
         <div className="ticks"></div>
