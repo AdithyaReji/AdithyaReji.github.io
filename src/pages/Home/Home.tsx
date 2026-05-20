@@ -1,4 +1,5 @@
 import styles from './Home.module.scss'
+import NavBar from '../../components/NavBar/NavBar';
 function Home () {
     return (
         <>
@@ -8,6 +9,9 @@ function Home () {
             </h1>
         </section>
         <div className="ticks"></div>
+        <section>
+            <NavBar />
+        </section>
         <section className={styles.nextSteps}>
             <div>
                 This is a work in progress, and I will be adding more content to this website in the following weeks!
