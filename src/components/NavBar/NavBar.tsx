@@ -10,6 +10,12 @@ function NavBar() {
       <Link to="/about" className={styles.navLink}>
         About
       </Link>
+      <Link to="/projects" className={styles.navLink}>
+        Projects
+      </Link>
+      <Link to="/contact" className={styles.navLink}>
+        Contact
+      </Link>
     </nav>
   );
 }
