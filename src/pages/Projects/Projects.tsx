@@ -3,12 +3,12 @@ import NavBar from '../../components/NavBar/NavBar';
 function Projects() {
     return (
         <>
-        <h1 className={styles.center}>
-            Projects
-        </h1>
         <section>
             <NavBar />
         </section>
+        <h1 className={styles.center}>
+            Projects
+        </h1>
         <section className={styles.center}>
             <p>
                 I have worked on a variety of different projects.

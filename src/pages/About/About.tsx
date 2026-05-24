@@ -3,12 +3,12 @@ import styles from './About.module.scss';
 function About () {
     return (
         <>
-        <h1 className={styles.center}>
-            About Me
-        </h1>
         <section>
             <NavBar />
         </section>
+        <h1 className={styles.center}>
+            About Me
+        </h1>
         <section>
             <p>
                 My name is Adithya Reji, and 
