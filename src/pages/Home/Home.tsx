@@ -12,7 +12,7 @@ function Home () {
             </h1>
             <h1>
                 Adithya Reji
-            </h1>
+            </h1> 
         </section>
         <div className="ticks"></div>
         <section className={styles.nextSteps}>
