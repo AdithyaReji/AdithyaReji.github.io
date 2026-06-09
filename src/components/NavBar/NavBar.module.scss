@@ -1,4 +1,26 @@
 .navbar {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;;
+}
+
+.navLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+
+    &:hover {
+        background-color: rgb(245, 30, 30);
+    }
 }
