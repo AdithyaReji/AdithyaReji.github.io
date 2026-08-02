@@ -3,7 +3,7 @@ import NavBar from '../../components/NavBar/NavBar'
 import Button from '../../components/Button/Button'
 import styles from './Contact.module.scss'
 
-const CONTACT_EMAIL = 'adithyareji3@gmail.com'
+const CONTACT_EMAIL = 'adithyareji@gmail.com'
 
 function Contact () {
     const [name, setName] = useState('')
