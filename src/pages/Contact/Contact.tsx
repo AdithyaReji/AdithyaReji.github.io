@@ -25,7 +25,7 @@ function Contact () {
         <h1>Contact</h1>
         <section className={styles.center}>
             <p>
-                You can reach me at my email address: {CONTACT_EMAIL}
+                Send me a message and I'll get back to you.
             </p>
             <form className={styles.form} onSubmit={handleSubmit}>
                 <input
