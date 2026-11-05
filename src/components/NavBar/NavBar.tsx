@@ -16,6 +16,14 @@ function NavBar() {
       <Link to="/contact" className={styles.navLink}>
         Contact
       </Link>
+      <a
+        href="/Adithya_Reji_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.navLink}
+      >
+        Resume
+      </a>
     </nav>
   );
 }
